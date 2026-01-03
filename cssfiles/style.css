@@ -46,7 +46,10 @@ main {
 h1 {
     color: azure;
     font-size: 10vw;
-    font-style: initial;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 h2 {
@@ -59,6 +62,14 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 15vw;
+    margin-top: -5vw;
+}
+
+.Rim2 {
+    background: -webkit-linear-gradient(#ffffff, #ff8d8d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13vw;
     margin-top: -5vw;
 }
 
@@ -103,5 +114,5 @@ p {
     transform-origin: center;      /* grow from middle */
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
