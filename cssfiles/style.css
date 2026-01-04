@@ -1,3 +1,16 @@
+::selection {
+  background-color: #ff8d8d; /* The background color of the selection */
+  color: black;            /* The text color of the selection */
+}
+
+/* For Firefox compatibility */
+::-moz-selection {
+  background-color: #ff8d8d;
+  color: black;
+}
+
+
+
 body {
     margin: 0;
     background-color: #1f1f1f;
@@ -115,4 +128,20 @@ p {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+
+
+.info {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Visible state */
+.info.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
