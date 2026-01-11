@@ -28,21 +28,3 @@ requestAnimationFrame(animate);
 
 // Text appearing
 
-const revealElements = document.querySelectorAll(".info");
-
-const observer = new IntersectionObserver(
-  entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      }
-    });
-  },
-  {
-    threshold: 1
-  }
-);
-
-revealElements.forEach(element => {
-  observer.observe(element);
-});
