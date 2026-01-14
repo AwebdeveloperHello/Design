@@ -83,7 +83,7 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 13vw;
-    margin-top: -5vw;
+    margin-top: 8vw;
 }
 
 
@@ -94,6 +94,11 @@ p {
 }
 
 img {
+    height: 20vw;
+    margin-top: 7vw;
+}
+
+video {
     height: 20vw;
     margin-top: 7vw;
 }
