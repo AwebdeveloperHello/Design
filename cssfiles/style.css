@@ -63,6 +63,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    
 }
 
 h2 {
@@ -96,11 +97,15 @@ p {
 img {
     height: 20vw;
     margin-top: 7vw;
+    -webkit-box-shadow: 18px 23px 18px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 18px 23px 18px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 18px 23px 18px 0px rgba(0, 0, 0, 0.5);
 }
 
 video {
     height: 20vw;
     margin-top: 7vw;
+   
 }
 
 .Info2 {
