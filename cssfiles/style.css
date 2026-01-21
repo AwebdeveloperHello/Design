@@ -163,3 +163,8 @@ video {
   transform: translateY(0);
 }
 
+.mail {
+    color: rgb(255, 255, 255);
+    margin-left: 0.5vw;
+}
+
